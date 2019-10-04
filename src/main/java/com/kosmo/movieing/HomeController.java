@@ -37,7 +37,7 @@ public class HomeController {
 	 * 
 	 * model.addAttribute("serverTime", formattedDate );
 	 * 
-	 * return "home"; }
+	 * return "home"; };
 	 */
 	@GetMapping("/")
 	public String index(HttpServletRequest request) {
