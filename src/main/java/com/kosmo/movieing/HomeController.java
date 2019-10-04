@@ -48,6 +48,7 @@ public class HomeController {
 	        ipAddress = request.getRemoteAddr();
 	    }
 	    logger.info(ipAddress + " : " + rtnPage);
+	    System.out.println("명지다아아아ㅏ");
 	    return rtnPage;
 	}
 
