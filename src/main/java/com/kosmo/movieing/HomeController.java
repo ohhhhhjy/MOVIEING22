@@ -40,6 +40,7 @@ public class HomeController {
 	 * return "home"; }
 	 *  System.out.println("명지다아아아ㅏ");
 	 *  System.out.println("명지다아아아ㅏ");
+	 *  System.out.println("명지다아아아ㅏ");
 	 */
 	@GetMapping("/")
 	public String index(HttpServletRequest request) {
