@@ -38,6 +38,7 @@ public class HomeController {
 	 * model.addAttribute("serverTime", formattedDate );
 	 * 
 	 * return "home"; }
+	 *  System.out.println("명지다아아아ㅏ");
 	 */
 	@GetMapping("/")
 	public String index(HttpServletRequest request) {
@@ -48,7 +49,6 @@ public class HomeController {
 	        ipAddress = request.getRemoteAddr();
 	    }
 	    logger.info(ipAddress + " : " + rtnPage);
-	    System.out.println("명지다아아아ㅏ");
 	    return rtnPage;
 	}
 
