@@ -20,23 +20,24 @@
   <link href='<c:url value="/resources/vendor/bootstrap/css/bootstrap.css" />' rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="<c:url value='/resources/vendor/fontawesome-free/css/all.min.css'/>" rel="stylesheet" type="text/css">
+  <link href="<c:url value='/resources/vendor/fontawesome-free/css/all.css'/>" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="<c:url value='/resources/css/agency.min.css'/>" rel="stylesheet">
+  <link href="<c:url value='/resources/css/agency.css'/>" rel="stylesheet">
 
 </head>
+
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #002941">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #f7f2f5">MOVIEING</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img alt="logo" src="<c:url value='/resources/img/logos/logo.png'/>"/></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -58,12 +59,28 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">소식</a>
           </li>
-          <li class="nav-item">
+        </ul>
+        <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+        	
+        </li>
+        <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">마이페이지</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">로그아웃</a>
           </li>
         </ul>
+        <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <img src="<c:url value='/resources/img/search.png'/>" alt="검색" />
+                        </button>
+                    </span>
+                </div>
+            </div>
       </div>
     </div>
   </nav>
@@ -72,7 +89,7 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
+        <div class="intro-lead-in">Welcome To MOVIEING</div>
         <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
@@ -134,7 +151,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="<c:url value='/resources/img/portfolio/01-thumbnail.jpg'/>"  alt="">
+            <img class="img-fluid" src="<c:url value='/resources/img/portfolio/01-thumbnail.jpg'/>"  alt=""/>
           </a>
           <div class="portfolio-caption">
             <h4>Threads</h4>
