@@ -68,6 +68,7 @@
             <a class="nav-link js-scroll-trigger" href="#contact">로그아웃</a>
           </li>
         </ul>
+        
         <div id="custom-search-input">
                 <div class="input-group col-md-12">
                     <input type="text" class="form-control input-lg" placeholder="Buscar" />
