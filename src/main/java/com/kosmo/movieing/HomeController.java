@@ -50,6 +50,6 @@ public class HomeController {
 	    logger.info(ipAddress + " : " + rtnPage);
 	    return rtnPage;
 	}
-
+	//1004 지윤 깃 테스트입니다. 
 	
 }
