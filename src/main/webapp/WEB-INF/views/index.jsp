@@ -30,8 +30,6 @@
   <link href="<c:url value='/resources/css/agency.css'/>" rel="stylesheet">
 
 </head>
-
-
 <body id="page-top">
 
   <!-- Navigation -->
