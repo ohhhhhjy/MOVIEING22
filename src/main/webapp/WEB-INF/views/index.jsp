@@ -31,8 +31,8 @@
 
 </head>
 <body id="page-top">
-
-  <!-- Navigation -->
+	<jsp:include page="/WEB-INF/views/Top.jsp"/>
+  <%-- <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"><img alt="logo" src="<c:url value='/resources/img/logos/logo.png'/>"/></a>
@@ -71,7 +71,7 @@
         
         <div id="custom-search-input">
                 <div class="input-group col-md-12">
-                    <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                    <input type="text" class="form-control input-lg" placeholder="검색어를 입력하세요" />
                     <span class="input-group-btn">
                         <button class="btn btn-info btn-lg" type="button">
                             <img src="<c:url value='/resources/img/search.png'/>" alt="검색" />
@@ -81,7 +81,7 @@
             </div>
       </div>
     </div>
-  </nav>
+  </nav> --%>
 
   <!-- Header -->
   <header class="masthead">
@@ -324,7 +324,7 @@
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
+            <h4>정명지</h4>
             <p class="text-muted">Lead Designer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
@@ -348,7 +348,7 @@
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
+            <h4>권혜주</h4>
             <p class="text-muted">Lead Marketer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
@@ -369,10 +369,11 @@
             </ul>
           </div>
         </div>
+        
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
+            <h4>성수민</h4>
             <p class="text-muted">Lead Developer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
