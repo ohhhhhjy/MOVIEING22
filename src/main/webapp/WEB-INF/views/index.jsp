@@ -31,7 +31,8 @@
 
 </head>
 <body id="page-top">
-	<jsp:include page="/WEB-INF/views/templates/Top.jsp"/>
+	<%-- <jsp:include page="/WEB-INF/views/templates/Top.jsp"/> --%>
+ 
  
   <!-- Header -->
   <header class="masthead">
@@ -390,7 +391,7 @@
  
 	
   <!-- Footer -->
-  <jsp:include page="/WEB-INF/views/templates/Footer.jsp"/>
+<%--   <jsp:include page="/WEB-INF/views/templates/Footer.jsp"/> --%>
      
      
  
