@@ -696,6 +696,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #custom-search-input input{
     border: 0;
     box-shadow: none;
+    margin-right: 10px;
 }
 
 #custom-search-input button{
@@ -717,4 +718,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #custom-search-input .glyphicon-search{
     font-size: 23px;
 }
+
+
 

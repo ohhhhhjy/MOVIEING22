@@ -31,58 +31,8 @@
 
 </head>
 <body id="page-top">
-	<jsp:include page="/WEB-INF/views/Top.jsp"/>
-  <%-- <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img alt="logo" src="<c:url value='/resources/img/logos/logo.png'/>"/></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">전체영화</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">평가</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">추천</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">블로그</a>	
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">소식</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="nav-item">
-        </li>
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">마이페이지</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">로그아웃</a>
-          </li>
-        </ul>
-        
-        <div id="custom-search-input">
-                <div class="input-group col-md-12">
-                    <input type="text" class="form-control input-lg" placeholder="검색어를 입력하세요" />
-                    <span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button">
-                            <img src="<c:url value='/resources/img/search.png'/>" alt="검색" />
-                        </button>
-                    </span>
-                </div>
-            </div>
-      </div>
-    </div>
-  </nav> --%>
-
+	<jsp:include page="/WEB-INF/views/templates/Top.jsp"/>
+ 
   <!-- Header -->
   <header class="masthead">
     <div class="container">
@@ -93,6 +43,8 @@
       </div>
     </div>
   </header>
+
+
 
   <!-- Services -->
   <section class="page-section" id="services" style="border-color: #f7f2f5">
@@ -434,46 +386,11 @@
 
  
  
+ 
+ 
 	
   <!-- Footer -->
-	<footer class="footer">
-     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </footer>
+  <jsp:include page="/WEB-INF/views/templates/Footer.jsp"/>
      
      
  

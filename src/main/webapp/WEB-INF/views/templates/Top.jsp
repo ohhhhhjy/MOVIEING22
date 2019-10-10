@@ -22,7 +22,7 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbarResponsive" >
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">전체영화</a>
@@ -41,26 +41,52 @@
           </li>
         </ul>
         <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="nav-item">
-        </li>
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">마이페이지</a>
+        	<li>&nbsp;</li>
+        </ul>
+         <ul class="navbar-nav text-uppercase ml-auto">
+        	<li>&nbsp;</li>
+        </ul>
+         <ul class="navbar-nav text-uppercase ml-auto">
+        	<li>&nbsp;</li>
+        </ul>
+         <ul class="navbar-nav text-uppercase ml-auto">
+        	<li>&nbsp;</li>
+        </ul>
+         <ul class="navbar-nav text-uppercase ml-auto">
+        	<li>&nbsp;</li>
+        </ul>
+        
+        <ul class="navbar-nav text-uppercase ml-auto" >
+        
+	        <!-- <li class="nav-item">
+            	<a class="nav-link js-scroll-trigger" href="#contact">마이페이지</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">로그아웃</a>
           </li>
+           -->
+           <li>
+          <div id="custom-search-input">
+				<div class="input-group col-md-12">
+					<input type="text" class="form-control input-lg"
+						placeholder="검색어를 입력하세요" /> <span class="input-group-btn">
+						<button class="btn btn-info btn-lg" type="button">
+							<img src="<c:url value='/resources/img/search.png'/>" alt="검색" />
+						</button>
+					</span>
+				</div>
+			</div>
+			</li>
+			<li><span>&nbsp;&nbsp;&nbsp;</span></li>
+			<li>
+			<a href="https://www.naver.com">
+			<img  alt="user" src="<c:url value='/resources/img/user.png'/>"/>
+		</a>
+          </li>
         </ul>
-        
-        <div id="custom-search-input">
-                <div class="input-group col-md-12">
-                    <input type="text" class="form-control input-lg" placeholder="검색어를 입력하세요" />
-                    <span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button">
-                            <img src="<c:url value='/resources/img/search.png'/>" alt="검색" />
-                        </button>
-                    </span>
-                </div>
-            </div>
-      </div>
+
+			
+		</div>
+		
     </div>
   </nav>
