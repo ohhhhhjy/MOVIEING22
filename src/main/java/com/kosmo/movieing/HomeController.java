@@ -41,14 +41,15 @@ public class HomeController {
 	 */
 	@GetMapping("/")
 	public String index(HttpServletRequest request) {
-	    logger.debug("###INDEX PAGE###");
-	    String rtnPage = "index";
-	    String ipAddress = request.getHeader("X-FORWARDED-FOR");
-	    if (ipAddress == null) {
-	        ipAddress = request.getRemoteAddr();
-	    }
-	    logger.info(ipAddress + " : " + rtnPage);
-	    return rtnPage;
+//	    logger.debug("###INDEX PAGE###");
+//	    String rtnPage = "index";
+//	    String ipAddress = request.getHeader("X-FORWARDED-FOR");
+//	    if (ipAddress == null) {
+//	        ipAddress = request.getRemoteAddr();
+//	    }
+//	    logger.info(ipAddress + " : " + rtnPage);
+//	    return rtnPage;
+		return "index.tiles";
 	}
 	//1004 지윤 깃 테스트입니다. 
 	
