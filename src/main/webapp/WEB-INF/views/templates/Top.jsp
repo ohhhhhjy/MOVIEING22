@@ -23,6 +23,7 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive" >
+     <%-- 
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">전체영화</a>
@@ -64,6 +65,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">로그아웃</a>
           </li>
+          
            -->
            <li>
           <div id="custom-search-input">
@@ -83,8 +85,15 @@
 			<img  alt="user" src="<c:url value='/resources/img/user.png'/>"/>
 		</a>
           </li>
+          
+          
         </ul>
-
+		 --%>
+		 <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link portfolio-link" href="#login-modal" data-toggle="modal">로그인</a>
+          </li>
+          </ul>
 			
 		</div>
 		

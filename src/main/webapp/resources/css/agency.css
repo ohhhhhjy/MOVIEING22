@@ -719,5 +719,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-size: 23px;
 }
 
-
+.login-modal .modal-dialog {
+  margin: 1rem;
+  width : 100px;
+}
 
